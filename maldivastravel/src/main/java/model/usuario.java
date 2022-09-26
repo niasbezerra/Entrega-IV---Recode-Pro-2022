@@ -2,6 +2,7 @@ package model;
 
 public class usuario {
 
+	
 	private int idcliente;
 	public int getIdcliente() {
 		return idcliente;
@@ -39,5 +40,4 @@ public class usuario {
 	private String destino_interesse;
 		
 }
-
 
