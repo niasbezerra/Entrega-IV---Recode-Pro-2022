@@ -7,8 +7,10 @@
 <title>Lista dos usuário Maldivas Travel</title>
 </head>
 <body>
-  	<%@ page import="com." 
+  	<%@ page import="model.DAO, model.usuario *, java.util *" %>
+  	<%@ taglig uri="http//java.sun.com/jsp/jstl/core" prefix=c %>
   	
-  	 %>
+  	<h1>USUÁRIOS CADASTRADOS NO MALDIVAS TRAVEL </h1>
+  	
 </body>
 </html>
