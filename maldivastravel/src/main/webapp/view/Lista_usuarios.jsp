@@ -5,6 +5,7 @@
 <title>Lista dos usuário Maldivas Travel</title>
 </head>
 <body>
+
   <%@ page import="model.DAO, model.usuario, java.util.*"%>
   <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
@@ -12,8 +13,8 @@
   	<h1>USUÁRIOS CADASTRADOS NO MALDIVAS TRAVEL </h1>
   	
   	<%
-  List <usuario> lista_usuario = DAO.getAllusuario();
-  request.setAttribute("list", lista_usuario);
+  List <DAO> list = DAO.getAllusuario();
+  request.setAttribute("list", list);
   	%>
   	
   	<table>
