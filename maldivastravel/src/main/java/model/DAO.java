@@ -21,7 +21,7 @@ public class DAO {
 	}                  
 		return con;
 	}
-	public static List <usuario> getAllusuario() {
+	public static List <DAO> getAllusuario() {
 		return null;
 	} {
 		List <usuario> list = new ArrayList <usuario>();
@@ -32,7 +32,7 @@ public class DAO {
 			ResultSet rs = ps.executeQuery();
 		
 		while(rs.next()) {
-			Usuario usuario = new usuario ();
+			usuario usuario = new usuario ();
 			usuario.setIdcliente(rs.getInt("idcliente"));
 			usuario.setNome(rs.getString("nome"));
 			usuario.setEmail(rs.getString("email"));
