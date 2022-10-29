@@ -1,0 +1,23 @@
+nav{
+    background-image: linear-gradient(to right, violet,mediumpurple,royalblue);
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+#btn1 {
+    background-color: mediumpurple;
+}
+
+#btn2 {
+    background-color: mediumpurple;
+}
+
+#btn3 {
+    background-color: mediumpurple;
+}
+
+#btn4 {
+    background-color: mediumpurple;
+}
